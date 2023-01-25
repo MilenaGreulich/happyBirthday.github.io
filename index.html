@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<script>
+  function playAudio() {
+    var audio = new Audio('Dokumente\Standchen.mp3');
+    audio.play();
+  }
+</script>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -29,6 +35,10 @@
       <span class="letter color20">n</span>
       <span class="letter color21">a</span>
     </h1>
+  <div>
+<button style="color: white; background-color: purple;" onclick="playAudio()" >Click Me</button>
   </div>
+  </div>
+
 </body>
 </html>
